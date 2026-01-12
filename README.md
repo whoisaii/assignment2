@@ -4,28 +4,28 @@ This repository contains my Java project for Assignment 2. The project is a si
 
 Classes and Objects
 Person
-* Abstract parent class
-* Contains the field name
-* Has an abstract method printInfo()
-* Used to show abstraction
+ Abstract parent class
+  Contains the field name
+  Has an abstract method printInfo()
+  Used to show abstraction
 Shopper
-* Child class that extends Person
-* Represents a customer
-* Overrides the printInfo() method
-* Used to show inheritance and polymorphism
+  Child class that extends Person
+  Represents a customer
+  Overrides the printInfo() method
+  Used to show inheritance and polymorphism
 Product
-* Represents a product with name and price
-* All fields are private
-* Getters and setters are used
-* Overrides toString(), equals() and hashCode()
-* Used to show encapsulation
+  Represents a product with name and price
+  All fields are private
+  Getters and setters are used
+  Overrides toString(), equals() and hashCode()
+  Used to show encapsulation
 Main
-* Creates objects of Product and Shopper
-* Stores products in an ArrayList
-* Implements searching, filtering and sorting
-* Runs and tests the program
+  Creates objects of Product and Shopper
+  Stores products in an ArrayList
+  Implements searching, filtering and sorting
+  Runs and tests the program
 
-* 
+  
 OOP Concepts Used:
 * Encapsulation
 All fields are private, and I use getters and setters to work with them.
